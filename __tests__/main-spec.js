@@ -34,6 +34,15 @@ it ('should print aligned mutiply table', () => {
 );
 });
 
+/*
+given I inputs null and 1
+when mutiplyTbale
+then I should get null
+*/
+it ('should be null if one value is null', () => {
+    expect(mutiplyTable(null, 1)).toBe(null);
+});
+
 
 
 

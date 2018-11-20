@@ -1,6 +1,17 @@
 
+function isValidRange(left, right){
+    if(left==null || right ==null){
+        return false
+    }
+
+    return true
+    
+}
 function mutiplyTable (left, right) {
     
+    if(!isValidRange(left,right)){
+        return null
+    }
 
     padding = right.toString().length*2+(right*right).toString().length+3
 
