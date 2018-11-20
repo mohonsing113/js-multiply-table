@@ -2,7 +2,7 @@ const mutiplyTable = require('../main');
 
 /*
 given I inputs 2 and 4
-when createMutiplyTbale
+when mutiplyTbale
 then I should get 2x2=4 2x3=6 3x3=9 2x4=8 3x4=12 4x4=16
 */
 it ('should print mutiply table', () => {
@@ -14,7 +14,7 @@ it ('should print mutiply table', () => {
 
 /*
 given I inputs 3 and 1
-when createMutiplyTbale
+when mutiplyTbale
 then I should get null
 */
 it ('should be null', () => {
@@ -23,7 +23,7 @@ it ('should be null', () => {
 
 /*
 given I inputs 997 and 1000
-when createMutiplyTbale
+when mutiplyTbale
 then I should get printed mutiply table
 */
 it ('should print mutiply table', () => {
