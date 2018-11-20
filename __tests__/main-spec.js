@@ -52,7 +52,14 @@ it ('should be null if input1 > input2', () => {
     expect(mutiplyTable(3, 1)).toBe(null);
 });
 
-
+/*
+given I inputs 999 and 1001
+when mutiplyTbale
+then I should get null
+*/
+it ('should be null if one value > 1000', () => {
+    expect(mutiplyTable(999, 1001)).toBe(null);
+});
 
 
 

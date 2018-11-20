@@ -6,7 +6,12 @@ function isValidRange(left, right){
     if(right<=left){
         return false
     }
-
+    if(left>1000 || left<1){
+        return false
+    }
+    if(right>1000 || right<1){
+        return false
+    }
     return true
     
 }
