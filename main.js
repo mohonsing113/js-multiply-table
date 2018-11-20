@@ -3,6 +3,9 @@ function isValidRange(left, right){
     if(left==null || right ==null){
         return false
     }
+    if(right<=left){
+        return false
+    }
 
     return true
     

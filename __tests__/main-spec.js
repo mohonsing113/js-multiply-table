@@ -43,7 +43,14 @@ it ('should be null if one value is null', () => {
     expect(mutiplyTable(null, 1)).toBe(null);
 });
 
-
+/*
+given I inputs 3 and 1
+when mutiplyTbale
+then I should get null
+*/
+it ('should be null if input1 > input2', () => {
+    expect(mutiplyTable(3, 1)).toBe(null);
+});
 
 
 
